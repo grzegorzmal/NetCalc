@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92ACCCAB1E3F3E8900E36F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACCCAA1E3F3E8900E36F18 /* AppDelegate.swift */; };
+		92ACCCAD1E3F3E8900E36F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACCCAC1E3F3E8900E36F18 /* ViewController.swift */; };
+		92ACCCB01E3F3E8900E36F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92ACCCAE1E3F3E8900E36F18 /* Main.storyboard */; };
+		92ACCCB21E3F3E8A00E36F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ACCCB11E3F3E8A00E36F18 /* Assets.xcassets */; };
+		92ACCCB51E3F3E8A00E36F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92ACCCB31E3F3E8A00E36F18 /* LaunchScreen.storyboard */; };
+		92ACCCC01E3F3E8A00E36F18 /* NetCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACCCBF1E3F3E8A00E36F18 /* NetCalcTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92ACCCBC1E3F3E8A00E36F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92ACCC9F1E3F3E8900E36F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92ACCCA61E3F3E8900E36F18;
+			remoteInfo = NetCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92ACCCA71E3F3E8900E36F18 /* NetCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92ACCCAA1E3F3E8900E36F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92ACCCAC1E3F3E8900E36F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92ACCCAF1E3F3E8900E36F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92ACCCB11E3F3E8A00E36F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92ACCCB41E3F3E8A00E36F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92ACCCB61E3F3E8A00E36F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92ACCCBB1E3F3E8A00E36F18 /* NetCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92ACCCBF1E3F3E8A00E36F18 /* NetCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetCalcTests.swift; sourceTree = "<group>"; };
+		92ACCCC11E3F3E8A00E36F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92ACCCA41E3F3E8900E36F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92ACCCB81E3F3E8A00E36F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92ACCC9E1E3F3E8900E36F18 = {
+			isa = PBXGroup;
+			children = (
+				92ACCCA91E3F3E8900E36F18 /* NetCalc */,
+				92ACCCBE1E3F3E8A00E36F18 /* NetCalcTests */,
+				92ACCCA81E3F3E8900E36F18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92ACCCA81E3F3E8900E36F18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92ACCCA71E3F3E8900E36F18 /* NetCalc.app */,
+				92ACCCBB1E3F3E8A00E36F18 /* NetCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92ACCCA91E3F3E8900E36F18 /* NetCalc */ = {
+			isa = PBXGroup;
+			children = (
+				92ACCCAA1E3F3E8900E36F18 /* AppDelegate.swift */,
+				92ACCCAC1E3F3E8900E36F18 /* ViewController.swift */,
+				92ACCCAE1E3F3E8900E36F18 /* Main.storyboard */,
+				92ACCCB11E3F3E8A00E36F18 /* Assets.xcassets */,
+				92ACCCB31E3F3E8A00E36F18 /* LaunchScreen.storyboard */,
+				92ACCCB61E3F3E8A00E36F18 /* Info.plist */,
+			);
+			path = NetCalc;
+			sourceTree = "<group>";
+		};
+		92ACCCBE1E3F3E8A00E36F18 /* NetCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				92ACCCBF1E3F3E8A00E36F18 /* NetCalcTests.swift */,
+				92ACCCC11E3F3E8A00E36F18 /* Info.plist */,
+			);
+			path = NetCalcTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92ACCCA61E3F3E8900E36F18 /* NetCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92ACCCC41E3F3E8A00E36F18 /* Build configuration list for PBXNativeTarget "NetCalc" */;
+			buildPhases = (
+				92ACCCA31E3F3E8900E36F18 /* Sources */,
+				92ACCCA41E3F3E8900E36F18 /* Frameworks */,
+				92ACCCA51E3F3E8900E36F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetCalc;
+			productName = NetCalc;
+			productReference = 92ACCCA71E3F3E8900E36F18 /* NetCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92ACCCBA1E3F3E8A00E36F18 /* NetCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92ACCCC71E3F3E8A00E36F18 /* Build configuration list for PBXNativeTarget "NetCalcTests" */;
+			buildPhases = (
+				92ACCCB71E3F3E8A00E36F18 /* Sources */,
+				92ACCCB81E3F3E8A00E36F18 /* Frameworks */,
+				92ACCCB91E3F3E8A00E36F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92ACCCBD1E3F3E8A00E36F18 /* PBXTargetDependency */,
+			);
+			name = NetCalcTests;
+			productName = NetCalcTests;
+			productReference = 92ACCCBB1E3F3E8A00E36F18 /* NetCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92ACCC9F1E3F3E8900E36F18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Greg;
+				TargetAttributes = {
+					92ACCCA61E3F3E8900E36F18 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					92ACCCBA1E3F3E8A00E36F18 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92ACCCA61E3F3E8900E36F18;
+					};
+				};
+			};
+			buildConfigurationList = 92ACCCA21E3F3E8900E36F18 /* Build configuration list for PBXProject "NetCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92ACCC9E1E3F3E8900E36F18;
+			productRefGroup = 92ACCCA81E3F3E8900E36F18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92ACCCA61E3F3E8900E36F18 /* NetCalc */,
+				92ACCCBA1E3F3E8A00E36F18 /* NetCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92ACCCA51E3F3E8900E36F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92ACCCB51E3F3E8A00E36F18 /* LaunchScreen.storyboard in Resources */,
+				92ACCCB21E3F3E8A00E36F18 /* Assets.xcassets in Resources */,
+				92ACCCB01E3F3E8900E36F18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92ACCCB91E3F3E8A00E36F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92ACCCA31E3F3E8900E36F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92ACCCAD1E3F3E8900E36F18 /* ViewController.swift in Sources */,
+				92ACCCAB1E3F3E8900E36F18 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92ACCCB71E3F3E8A00E36F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92ACCCC01E3F3E8A00E36F18 /* NetCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92ACCCBD1E3F3E8A00E36F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92ACCCA61E3F3E8900E36F18 /* NetCalc */;
+			targetProxy = 92ACCCBC1E3F3E8A00E36F18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92ACCCAE1E3F3E8900E36F18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92ACCCAF1E3F3E8900E36F18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92ACCCB31E3F3E8A00E36F18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92ACCCB41E3F3E8A00E36F18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92ACCCC21E3F3E8A00E36F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92ACCCC31E3F3E8A00E36F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92ACCCC51E3F3E8A00E36F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = greg.com.example.NetCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		92ACCCC61E3F3E8A00E36F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NetCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = greg.com.example.NetCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		92ACCCC81E3F3E8A00E36F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = greg.com.example.NetCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetCalc.app/NetCalc";
+			};
+			name = Debug;
+		};
+		92ACCCC91E3F3E8A00E36F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = greg.com.example.NetCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetCalc.app/NetCalc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92ACCCA21E3F3E8900E36F18 /* Build configuration list for PBXProject "NetCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92ACCCC21E3F3E8A00E36F18 /* Debug */,
+				92ACCCC31E3F3E8A00E36F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92ACCCC41E3F3E8A00E36F18 /* Build configuration list for PBXNativeTarget "NetCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92ACCCC51E3F3E8A00E36F18 /* Debug */,
+				92ACCCC61E3F3E8A00E36F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92ACCCC71E3F3E8A00E36F18 /* Build configuration list for PBXNativeTarget "NetCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92ACCCC81E3F3E8A00E36F18 /* Debug */,
+				92ACCCC91E3F3E8A00E36F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92ACCC9F1E3F3E8900E36F18 /* Project object */;
+}
