@@ -19,7 +19,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    //MARK: Variables
+    var sumVariable1: Double
+    var sumVariable2: Double
+    
     //MARK: Outlets
     @IBOutlet weak var displayLabel: UITextField!
     
@@ -53,6 +57,10 @@ class ViewController: UIViewController {
     }
     @IBAction func Button0(_ sender: UIButton) {
         displayLabel.text = displayLabel.text! + "0"
+    }
+    @IBAction func ButtonPlus(_ sender: UIButton) {
+    }
+    @IBAction func ButtonResult(_ sender: UIButton) {
     }
     
 }
